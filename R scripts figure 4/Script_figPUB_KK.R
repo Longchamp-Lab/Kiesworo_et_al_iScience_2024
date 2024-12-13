@@ -16,11 +16,6 @@ library(ggsignif)
 library(ggsci)
 library(ggforce)
 
-## Load data
-#setwd("D:/OneDrive - Université de Lausanne/Documents/Aging_Ambizione/Experiments/Exp#19_RNAseqECyoungOld_KB/Thomas-Kevin analysis/NBC")
-setwd("C:/Users/CVAlab/OneDrive - Université de Lausanne/Documents - LongchampLab - Teams/Aging_Ambizione/Experiments/Exp#18_RNAseqECyoungOld_KB/Thomas-Kevin analysis/NBC")
-
-#relevant <- read.csv("v4/GO_gene.csv")
 counts <- read.csv("counts_normalizedCPM.csv")
 counts.DEG <- read.csv("DEGs_fdr005_fc1.csv")
 
